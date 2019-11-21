@@ -1,19 +1,18 @@
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
-  spec.name         = "LoginDemoVC"
-  spec.version      = "0.0.1"
-  spec.summary      = "LoginDemoVC"
-  spec.description  = <<-DESC
+  s.name         = "LoginDemoVC"
+  s.version      = "0.0.1"
+  s.summary      = "LoginDemoVC"
+  s.description  = <<-DESC
 			     LoginDemoVC
                       DESC
-  spec.homepage     = "https://github.com/zddong/LoginView.git"
-  spec.license      = "MIT"
-  spec.author             = { "850853654@qq.com" => "850853654@qq.com" }
-  spec.source       = { :git => "https://github.com/zddong/LoginView.git", :tag => "#{spec.version}" }
-  spec.platform   =  :ios,"8.0"
-  spec.source_files  = "LoginDemoVC"
-  spec.frameworks = "CoreLocation","Foundation", "CoreGraphics", "UIKit"
-  spec.requires_arc = true
+  s.homepage     = "https://github.com/zddong/LoginView.git"
+  s.license      = "MIT"
+  s.author             = { "850853654@qq.com" => "850853654@qq.com" }
+  s.source       = { :git => "https://github.com/zddong/LoginView.git", :tag => "#{s.version}" }
+  s.source_files  = "LoginDemoVC/*"
+  s.frameworks = "UIKit"
+  s.requires_arc = true
 
 end
