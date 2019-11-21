@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "850853654@qq.com" => "850853654@qq.com" }
   s.source       = { :git => "https://github.com/zddong/LoginView.git", :tag => "#{s.version}" }
-  s.source_files  = "LoginDemoVC"
-  s.frameworks = "UIKit"
+  s.source_files  = "LoginDemoVC/*.{h,m}"
+  s.frameworks = "CoreLocation","Foundation", "CoreGraphics", "UIKit"
 
 end
