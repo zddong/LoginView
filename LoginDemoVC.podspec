@@ -11,7 +11,6 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "850853654@qq.com" => "850853654@qq.com" }
   spec.source       = { :git => "https://github.com/zddong/LoginView.git", :tag => "#{spec.version}" }
-  spec.module_name = 'LoginDemoVC'
   spec.platform   =  :ios,"8.0"
   spec.source_files  = "LoginDemoVC/*.{h,m}"
   spec.frameworks = "CoreLocation","Foundation", "CoreGraphics", "UIKit"
