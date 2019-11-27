@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PersonalViewController : UIViewController
 
+@property (nonatomic, strong) NSDictionary *paramsDic;
+@property (nonatomic, strong) NSMutableArray *dataArr;
+
 @end
 
 NS_ASSUME_NONNULL_END

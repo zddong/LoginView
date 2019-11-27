@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LoginDemoVC"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "LoginDemoVC"
   s.description  = <<-DESC
   LoginDemoVC
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.author             = { "850853654@qq.com" => "850853654@qq.com" }
   s.platform   =  :ios,"8.0"
   s.source       = { :git => "https://github.com/zddong/LoginView.git", :tag => "#{s.version}" }
-  s.source_files  =  "LoginDemoVC/*.{h,m}"
+  s.source_files  =  "LoginDemoVC/*.{h,m,xib}"
   s.requires_arc = true
   s.exclude_files = "LoginDemoVC/Exclude"
   s.frameworks = "CoreLocation","Foundation", "CoreGraphics", "UIKit"
