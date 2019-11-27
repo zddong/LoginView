@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LoginDemoVC"
-  s.version      = "0.1.3"
+  s.version      = "0.1.4"
   s.summary      = "LoginDemoVC"
   s.description  = <<-DESC
   LoginDemoVC
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   s.license      = "MIT"
   s.author             = { "850853654@qq.com" => "850853654@qq.com" }
-  s.platform   =  :ios,"8.0"
+  s.platform   =  :ios,"9.0"
   s.source       = { :git => "https://github.com/zddong/LoginView.git", :tag => "#{s.version}" }
   s.source_files  =  "LoginDemoVC/*.{h,m}"
   s.resources  =  "LoginDemoVC/*.{xib}"
