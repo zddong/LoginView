@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LoginDemoVC"
-  s.version      = "0.2.1"
+  s.version      = "0.2.2"
   s.summary      = "LoginDemoVC"
   s.description  = <<-DESC
   LoginDemoVC
