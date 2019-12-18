@@ -11,6 +11,36 @@
 #import "AFNetworking.h"
 #import "MBProgressHUD.h"
 
+//测试
+#define kBaseUrl  @"http://114.248.78.102:9100/urmp"
+//正式
+//#define kBaseUrl  @"https://cloud.bjshfb.com/urmp"
+
+//获取临时token
+#define kTempToken  @"login/un/token"
+//更新二维码登录状态
+#define kUpdateQrcode  @"login/qrcode/login"
+//用户注册
+#define kRegister  @"login/un/register"
+//用户口令登录
+#define kPwLogin  @"login/un/password"
+//手机验证码登录
+#define kSmsLogin  @"login/un/sms"
+//退出登录
+#define kLoginOut  @"login/out"
+//滑块验证
+#define kSlideCheck  @"login/un/slide/check"
+//发送短信验证码
+#define kSendSms  @"sms/un/send"
+//短信验证码校验
+#define kCheckSms  @"sms/un/check"
+//忘记密码
+#define kForgetUpdate  @"login/un/forget/update"
+//口令修改密码
+#define kPwUpdate  @"user/password/update"
+//校验用户名
+#define kCheckName  @"login/un/name/check"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CommonTool : NSObject
