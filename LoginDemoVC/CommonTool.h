@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AFNetworking.h"
+#import "MBProgressHUD.h"
+
 
 //测试
 #define kBaseUrl  @"http://114.248.78.102:9100/urmp"
