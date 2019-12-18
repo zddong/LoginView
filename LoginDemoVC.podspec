@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LoginDemoVC"
-  s.version      = "0.1.7"
+  s.version      = "0.1.8"
   s.summary      = "LoginDemoVC"
   s.description  = <<-DESC
   LoginDemoVC
@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.exclude_files = "LoginDemoVC/Exclude"
   s.frameworks = "CoreLocation","Foundation", "CoreGraphics", "UIKit"
-  s.dependency "SDWebImage","MBProgressHUD"
+  s.dependency "SDWebImage"
+  s.dependency "AFNetworking"
+  s.dependency "MBProgressHUD"
   # s.public_header_files = "WPButton/**/*.h"
 end
