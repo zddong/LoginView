@@ -9,7 +9,7 @@
 #import "SettingViewController.h"
 
 #import "CommonTool.h"
-#import "MainTabbarController.h"
+//#import "MainTabbarController.h"
 
 @interface SettingViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *cacheSize;
@@ -101,8 +101,8 @@
       [[NSUserDefaults standardUserDefaults] setObject:@"" forKey:@"token"];
       [[NSUserDefaults standardUserDefaults] synchronize];
       
-      MainTabbarController *tab = (MainTabbarController *)[UIApplication sharedApplication].keyWindow.rootViewController;
-      tab.selectedIndex = 0;
+//      MainTabbarController *tab = (MainTabbarController *)[UIApplication sharedApplication].keyWindow.rootViewController;
+//      tab.selectedIndex = 0;
       
       [self.navigationController popViewControllerAnimated:YES];
       

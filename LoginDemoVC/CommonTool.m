@@ -115,7 +115,7 @@
   }
   
   
-  NSURLCache *httpCache = [NSURLCache sharedURLCache];
+//  NSURLCache *httpCache = [NSURLCache sharedURLCache];
   //+[httpCache currentDiskUsage]
   NSUInteger caches =size+cachesSize;
   
