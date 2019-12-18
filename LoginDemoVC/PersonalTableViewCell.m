@@ -1,14 +1,14 @@
 //
-//  PersonalCell.m
-//  LoginDemo
+//  PersonalTableViewCell.m
+//  app
 //
-//  Created by zhao on 2019/11/27.
-//  Copyright © 2019 zhao. All rights reserved.
+//  Created by zhao on 2019/12/10.
+//  Copyright © 2019 Facebook. All rights reserved.
 //
 
-#import "PersonalCell.h"
+#import "PersonalTableViewCell.h"
 
-@implementation PersonalCell
+@implementation PersonalTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
